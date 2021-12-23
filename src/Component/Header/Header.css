@@ -1,0 +1,33 @@
+#Header {
+  width: 100%;
+  height: 100%;
+  background-color: #009aa8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+#Header > h1 {
+  font-size: 4rem;
+  color: #f0b800;
+}
+/*----------------------- Header Date */
+#Header > #Header-Date,#Header-Hour {
+  padding: 10px 30px;
+  color: #fff;
+  background-color: tomato;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  text-align: right;
+  box-shadow: -2px 2px 5px gray;
+  border-radius: 10px;
+}
+#Header > #Header-Date > b {
+  color: #000;
+  
+}
+#Header-Hour{
+  top:190%;
+}
+

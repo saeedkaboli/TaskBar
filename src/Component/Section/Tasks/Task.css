@@ -1,0 +1,48 @@
+#Task {
+  width: 200px;
+  height: 300px;
+  /* border: 1px solid black; */
+  margin: 20px 50px;
+  border-radius: 7px;
+  background-color: #fff;
+  box-shadow: 0px 5px 10px gray;
+}
+#Parent-Task {
+  width: 100%;
+  height: 100%;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#Parent-Task > #Task-img {
+  width: 100%;
+  height: 50%;
+  /* border: 1px solid green; */
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#Parent-Task > #Task-img > img {
+  width: 70%;
+  height: auto;
+}
+#Parent-Task > #Task-name,
+#Parent-Task > #Task-time {
+  width: 100%;
+  height: 20%;
+  /* border: 1px solid orange; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#Parent-Task > #Task-btn {
+  width: 100%;
+  height: 20%;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
